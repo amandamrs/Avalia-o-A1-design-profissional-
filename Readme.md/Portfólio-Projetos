@@ -1,0 +1,100 @@
+** Portfólio de Projetos **
+Este repositório contém projetos desenvolvidos durante o primeiro semestre de Ciência da Computação.
+
+1. Projetos de Algoritmos e Programação em C
+Estes projetos foram desenvolvidos em linguagem C, focando em Algoritmo e Pensamento Computacional.
+
+1.1. Calculadora em C
+O arquivo Calculadora C - Algoritmo e pensamento computacional.txt contém a implementação de uma calculadora completa em C.
+
+Funcionalidades Principais:
+
+Operações Aritméticas Básicas: Soma, Subtração, Multiplicação e Divisão.
+
+Funções Matemáticas Avançadas:
+
+Exponenciação, Raiz Quadrada e Raiz Cúbica.
+
+Funções Trigonométricas (Cosseno, Seno, Tangente).
+
+Funções de Logaritmo (Logaritmo na Base 10 e Logaritmo Natural).
+
+Constante de Euler.
+
+Funções Trigonométricas Inversas (Arco-Cosseno, Arco-Seno, Arco-Tangente).
+
+Histórico de Operações: A calculadora possui um recurso de histórico para armazenar as operações realizadas.
+
+1.2. Algoritmos de Ordenação em C
+O arquivo Ordenação C - Algoritmo e pensamento computacional.txt contém a implementação de três algoritmos de ordenação, com foco na análise de desempenho.
+
+Algoritmos Implementados:
+
+Bubble Sort.
+
+Insertion Sort.
+
+Heap Sort.
+
+Análise de Desempenho: O código inclui uma estrutura para medir e relatar o desempenho de cada algoritmo, registrando:
+
+O número de "passos" (comparações e trocas).
+
+O tempo de execução em milissegundos (tempo_ms).
+
+Os resultados de desempenho são formatados para saída CSV (metodo,N,caso,passos,tempo_ms), facilitando a análise e a criação de relatórios.
+
+2. Projeto de Modelagem de Banco de Dados
+Este projeto documenta a modelagem de um sistema de gerenciamento de dados de transporte/viagens, abrangendo diversas etapas da Modelagem de Banco de Dados.
+
+Modelos Incluídos:
+
+Modelo Conceitual (Modelo conceitual - Modelagem de Banco de Dados).
+
+Modelo Lógico (Modelo Lógico - Modelagem de Banco de Dados.txt): Define as tabelas e relacionamentos do banco de dados.
+
+Modelo Físico (Modelo Físico - Modelagem de banco de Dados.txt): Contém o script SQL para criação do esquema e das tabelas.
+
+Dicionário de Dados (Dicionário de dados - Modelagem de Banco de Dados).
+
+Esquema e Entidades Principais: O Modelo Físico cria um esquema denominado projeto. As principais entidades do sistema modelado incluem:
+
+rota (id_rota, nome, distancia_total, tempo_estimado).
+
+onibus (id_onibus, placa, modelo, capacidade, autonomia).
+
+parada (id_parada, nome, infraestrutura).
+
+viagem (id_viagem, horario_inicio, horario_termino).
+
+passageiro (id_passageiro, nome, historico_viagens, preferencia).
+
+pagamento (id_pagamento, valor, metodo, data_hora).
+
+sensor, evento, e status (para monitoramento e ocorrências).
+
+3. Projetos de Desenvolvimento Front-end
+3.1. Projeto Bebidas de Luxo
+Projeto front-end que está disponível em um repositório público no GitHub.
+
+Repositório: https://github.com/pauloxsdev/Projeto-Bebidas-de-Luxo.git.
+
+3.2. Template Parallax com Materialize
+Este projeto é um template HTML básico que utiliza o framework CSS Materialize para a criação de uma página responsiva com efeito Parallax.
+
+Tecnologia: HTML, CSS, JavaScript, e o framework Materialize CSS.
+
+Estrutura da Página: A página inclui uma navegação (<nav>) e várias seções utilizando o componente parallax-container.
+
+Componentes Principais: Barra de navegação com logotipo e links (brand-logo, ul.right), Sidenav para mobile (sidenav), Banner principal com efeito Parallax (parallax-container), Blocos de Ícones (3 colunas) e um rodapé (page-footer).
+
+Dependências: Utiliza Google Icon Font (Material Icons), materialize.min.css, jquery-2.1.1.min.js, materialize.min.js e arquivos locais como ./css/style.css e ./js/main.js.
+
+4. Tecnologias Utilizadas
+Projeto	Linguagens/Tecnologias	Observações
+Algoritmos C	Linguagem C, stdio.h, math.h, time.h	Foco em lógica de programação e análise de complexidade.
+Modelagem BD	SQL (DDL), Modelagem Conceitual/Lógica/Física	Projeto de Banco de Dados relacional.
+Front-end	HTML, CSS, JavaScript, Materialize CSS	Desenvolvimento de interfaces responsivas e templates.
+
+Autora: Amanda Morais Castelo Cadete.
+Lattes: https://lattes.cnpq.br/4274992684239207.
